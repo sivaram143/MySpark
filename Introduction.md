@@ -25,6 +25,16 @@ export PATH = $SPARK_HOME/python:$PATH
 
 1. Setup VM using [cloudera]((https://www.cloudera.com/downloads/quickstart_vms/5-13.html) quickstart images {All installations came with the image}
 
+
+#### Start Pyspark with Jupytor
+1. Set the Path
+```
+export PYSPARK_DRIVER_PYTHON=/usr/local/bin/jupyter
+export PYSPARK_DRIVER_PYTHON_OPTS="notebook --NotebookApp.open_browser=False --NotebookApp.ip='*' --NotebookApp.port=8880"
+export PYSPARK_PYTHON=/usr/bin/python
+```
+2. Run `pyspark` [It opens Jupytor Notebook]
+
 ### PySpark - RDD
 
 - RDD stands for **Resilient Distributed Dataset**, these are the elements that run and operate on multiple nodes to do parallel processing on a cluster. 

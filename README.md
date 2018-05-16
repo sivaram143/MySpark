@@ -26,3 +26,4 @@ https://spark.apache.org/downloads.html
 - [Apache Spark](https://spark.apache.org/)
 - [Horton Networks](https://hortonworks.com/apache/spark/)
 - [DataBricks](https://databricks.com/)
+- [FAQS](https://data-flair.training/blogs/apache-spark-online-quiz-part-1/)

@@ -1,13 +1,13 @@
-### PySpark
+## PySpark
 
-#### Introduction
+### Introduction
 
 - Apache Spark is written in Scala programming language. To support Python with Spark, Apache Spark Community released a tool, PySpark. 
 - Using PySpark, you can work with RDDs in Python programming language also.
 - PySpark offers PySpark Shell which links the Python API to the spark core and initializes the Spark context.
 - Majority of data scientists and analytics experts today use Python because of its rich library set.
 
-#### Setup
+### Setup
 
 1. Go to [Apache Spark](https://spark.apache.org/downloads.html) and download latest tar file
 2. Extract it ``spark-2.3.0-bin-hadoop2.7.tgz
@@ -19,7 +19,7 @@ export PYTHONPATH = $SPARK_HOME/python:$SPARK_HOME/python/lib/py4j-0.10.4-src.zi
 export PATH = $SPARK_HOME/python:$PATH
 ```
 4. Start Spark Shell `./bin/pyspark`
-   ![spark_shell](spark_shell.png)
+   ![spark_shell](spark_shell.PNG)
 
 (OR)
 

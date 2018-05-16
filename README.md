@@ -18,7 +18,7 @@ https://spark.apache.org/downloads.html
 ![img](spark_eco.png)
 
 ## PySpark
-- [Introduction](docs/introduction.md)
+- [Introduction](introduction.md)
 - [Examples](examples/)
 - [Notebooks](notebooks/)
 
